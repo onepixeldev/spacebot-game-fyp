@@ -14,6 +14,7 @@ public class GameOverManager : MonoBehaviour {
 
 	public string nextLevel = "basic2";
 	public int levelToUnlock = 2;
+	public int levelToUnlock2 = 0;
 
 	public void Start() {
 		levelCompleteUI.SetActive(false);
@@ -25,6 +26,7 @@ public class GameOverManager : MonoBehaviour {
 			levelHasComplete = true;
 			levelCompleteUI.SetActive(true);
 			PlayerPrefs.SetInt ("levelReached", levelToUnlock);
+			PlayerPrefs.SetInt ("levelReached2", levelToUnlock2);
 			Debug.Log ("level complete");
 		}
 	}

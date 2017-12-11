@@ -3000,8 +3000,8 @@ MonoBehaviour:
   handPointer2: {fileID: 2078081991}
   alertText: {fileID: 1238535978}
   gameHandlerV2: {fileID: 1083280182}
-  nextLevel: basic2
-  levelToUnlock: 2
+  nextLevel2: basic2
+  levelToUnlock2: 2
 --- !u!4 &979841103
 Transform:
   m_ObjectHideFlags: 0

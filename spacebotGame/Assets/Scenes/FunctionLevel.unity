@@ -1710,11 +1710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b572fd23fc5c7d4b8f1225b6917cca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelbuttons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  levelbuttons: []
+  levelbuttons2:
   - {fileID: 1889928618}
   - {fileID: 114081626}
   - {fileID: 1459106751}
