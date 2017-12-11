@@ -23,11 +23,14 @@ public class GameHandlerV2 : MonoBehaviour {
 	private string type; //either main or proc
 	private List<int> mainSteps; // keeps track of the steps the user entered for main
 	private List<int> procSteps; // keeps track of the steps the user entered for proc
-	private int maxMain = 3; // maximum steps allowed in main
-	private int maxMain2 = 7;
-	private int maxMain3 = 8;
-	private int maxMain4 = 12;
-	private int maxProc = 5; // maximum steps allowed in proc
+	private int maxMain = 2; // maximum steps allowed in main
+	private int maxMain2 = 3;
+	private int maxMain3 = 6;
+	private int maxMain4 = 10;
+	private int maxProc = 3; // maximum steps allowed in proc
+	private int maxProc2 = 4;
+	private int maxProc3 = 3;
+	private int maxProc4 = 4;
 	private Dictionary<int, Sprite> iconDict;
 	public bool typeSelect = false;
 	public bool alertTextUI = false;
@@ -124,6 +127,39 @@ public class GameHandlerV2 : MonoBehaviour {
 		gameManagerV2.HandPointer();
 	}
 
+	public void SetTypeToProc2()
+	{
+		type = "proc2";
+		Color32 color = new Color32(71, 185, 237, 255);
+		btnMain.image.color = Color.white;
+		btnProc.image.color = color;
+
+		typeSelect = true;
+		gameManagerV2.HandPointer();
+	}
+
+	public void SetTypeToProc3()
+	{
+		type = "proc3";
+		Color32 color = new Color32(71, 185, 237, 255);
+		btnMain.image.color = Color.white;
+		btnProc.image.color = color;
+
+		typeSelect = true;
+		gameManagerV2.HandPointer();
+	}
+
+	public void SetTypeToProc4()
+	{
+		type = "proc4";
+		Color32 color = new Color32(71, 185, 237, 255);
+		btnMain.image.color = Color.white;
+		btnProc.image.color = color;
+
+		typeSelect = true;
+		gameManagerV2.HandPointer();
+	}
+
 	public bool TypeSelected()
 	{
 		if (type != null)
@@ -173,7 +209,28 @@ public class GameHandlerV2 : MonoBehaviour {
 			if(procSteps.Count < maxProc)
 				procSteps.Add (index);
 			FindObjectOfType<SoundManager> ().PlaySoundSetCommand ();
-			Debug.Log("set Main4");
+			Debug.Log("set func");
+		}
+
+		if (type == "proc2") {
+			if(procSteps.Count < maxProc2)
+				procSteps.Add (index);
+			FindObjectOfType<SoundManager> ().PlaySoundSetCommand ();
+			Debug.Log("set func 2");
+		}
+
+		if (type == "proc3") {
+			if(procSteps.Count < maxProc3)
+				procSteps.Add (index);
+			FindObjectOfType<SoundManager> ().PlaySoundSetCommand ();
+			Debug.Log("set func 3");
+		}
+
+		if (type == "proc4") {
+			if(procSteps.Count < maxProc4)
+				procSteps.Add (index);
+			FindObjectOfType<SoundManager> ().PlaySoundSetCommand ();
+			Debug.Log("set func 4");
 		}
 	}
 
@@ -214,6 +271,27 @@ public class GameHandlerV2 : MonoBehaviour {
 
 		if (type == "proc") {
 			for (int i = 0; i < maxProc; i++) {
+				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
+				img.sprite = spBlank;
+			}
+		}
+
+		if (type == "proc2") {
+			for (int i = 0; i < maxProc2; i++) {
+				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
+				img.sprite = spBlank;
+			}
+		}
+
+		if (type == "proc3") {
+			for (int i = 0; i < maxProc3; i++) {
+				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
+				img.sprite = spBlank;
+			}
+		}
+
+		if (type == "proc4") {
+			for (int i = 0; i < maxProc4; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
 			}
