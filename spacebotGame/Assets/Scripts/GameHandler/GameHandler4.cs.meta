@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 192222fc2ae374a40aa2726eeedca53b
+timeCreated: 1511640352
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - btnMain: {instanceID: 0}
+  - spForward: {fileID: 21300000, guid: db91198ea8677284081a019f5ec8c59e, type: 3}
+  - spLeft: {fileID: 21300000, guid: e4c3f317f6f994e418b5bcc66d07438c, type: 3}
+  - spRight: {instanceID: 0}
+  - spLight: {instanceID: 0}
+  - spP1: {instanceID: 0}
+  - spBlank: {fileID: 21300000, guid: 6dfc8108f08a3443e824eade5cdfca2e, type: 3}
+  - spTarget: {instanceID: 0}
+  - spOn: {instanceID: 0}
+  - goRocket: {instanceID: 0}
+  - goPath: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
