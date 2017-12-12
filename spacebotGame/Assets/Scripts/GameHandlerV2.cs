@@ -423,15 +423,16 @@ public class GameHandlerV2 : MonoBehaviour {
 	public void Reset()
 	{
 		// clear lists
-		mainSteps.Clear();
-		procSteps.Clear();
-		procSteps2.Clear();
+		//mainSteps.Clear();
+		//procSteps.Clear();
+		//procSteps2.Clear();
 
 		// reset steps UI
 		if (type == "main") {
 			for (int i = 0; i < maxMain; i++) {
 				Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 				img.sprite = spBlank;
+				mainSteps.Clear();
 			}
 		}
 
@@ -439,6 +440,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxMain2; i++) {
 				Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 				img.sprite = spBlank;
+				mainSteps.Clear();
 			}
 		}
 
@@ -446,6 +448,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxMain3; i++) {
 				Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 				img.sprite = spBlank;
+				mainSteps.Clear();
 			}
 		}
 
@@ -453,6 +456,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxMain4; i++) {
 				Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 				img.sprite = spBlank;
+				mainSteps.Clear();
 			}
 		}
 
@@ -460,6 +464,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxMain5; i++) {
 				Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 				img.sprite = spBlank;
+				mainSteps.Clear();
 			}
 		}
 
@@ -467,6 +472,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxMain6; i++) {
 				Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 				img.sprite = spBlank;
+				mainSteps.Clear();
 			}
 		}
 
@@ -474,6 +480,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxMain7; i++) {
 				Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 				img.sprite = spBlank;
+				mainSteps.Clear();
 			}
 		}
 
@@ -481,6 +488,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxMain8; i++) {
 				Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 				img.sprite = spBlank;
+				mainSteps.Clear();
 			}
 		}
 
@@ -488,6 +496,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps.Clear();
 			}
 		}
 
@@ -495,6 +504,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc2; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps.Clear();
 			}
 		}
 
@@ -502,6 +512,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc3; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps.Clear();
 			}
 		}
 
@@ -509,6 +520,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc4; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps.Clear();
 			}
 		}
 
@@ -516,6 +528,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc5; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps.Clear();
 			}
 		}
 
@@ -523,6 +536,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc6; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps.Clear();
 			}
 		}
 
@@ -530,6 +544,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc7; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps.Clear();
 			}
 		}
 
@@ -537,6 +552,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc8; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps.Clear();
 			}
 		}
 
@@ -544,6 +560,7 @@ public class GameHandlerV2 : MonoBehaviour {
 			for (int i = 0; i < maxProc9; i++) {
 				Image img = (Image)GameObject.Find (string.Format ("img_p2{0:00}", i + 1)).GetComponent<Image> ();
 				img.sprite = spBlank;
+				procSteps2.Clear();
 			}
 		}
 		// reset rocket position and orientation
