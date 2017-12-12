@@ -29,7 +29,7 @@ public class GameHandlerV2 : MonoBehaviour {
 	private int maxMain = 2; // maximum steps allowed in main
 	private int maxMain2 = 3;
 	private int maxMain3 = 6;
-	private int maxMain4 = 10;
+	private int maxMain4 = 9;
 	private int maxMain5 = 1;
 	private int maxMain6 = 1;
 	private int maxMain7 = 4;
@@ -37,7 +37,7 @@ public class GameHandlerV2 : MonoBehaviour {
 	private int maxProc = 3; // maximum steps allowed in proc
 	private int maxProc2 = 4;
 	private int maxProc3 = 3;
-	private int maxProc4 = 4;
+	private int maxProc4 = 3;
 	private int maxProc5 = 3;
 	private int maxProc6 = 5;
 	private int maxProc7 = 5;
@@ -80,10 +80,12 @@ public class GameHandlerV2 : MonoBehaviour {
 			Image img = (Image)GameObject.Find (string.Format("img_m{0:00}", i+1)).GetComponent<Image>();
 			img.sprite = iconDict[mainSteps[i]];
 		}
+
 		for (int i = 0; i < procSteps.Count; i++) {
 			Image img = (Image)GameObject.Find (string.Format("img_p{0:00}", i+1)).GetComponent<Image>();
 			img.sprite = iconDict[procSteps[i]];
 		}
+
 		for (int i = 0; i < procSteps2.Count; i++) {
 			Image img = (Image)GameObject.Find (string.Format("img_p2{0:00}", i+1)).GetComponent<Image>();
 			img.sprite = iconDict[procSteps2[i]];

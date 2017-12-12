@@ -3649,10 +3649,12 @@ MonoBehaviour:
   levelCompleteUI: {fileID: 1485418907}
   handPointer: {fileID: 1137694648}
   handPointer2: {fileID: 2078081991}
+  handPointer3: {fileID: 0}
   alertText: {fileID: 1238535978}
   gameHandlerV2: {fileID: 1083280182}
   nextLevel2: basic2
   levelToUnlock2: 4
+  levelToUnlock3: 0
 --- !u!4 &979841103
 Transform:
   m_ObjectHideFlags: 0
@@ -3851,11 +3853,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   btnMain: {fileID: 1186193142}
   btnProc: {fileID: 1377764730}
+  btnProc2: {fileID: 0}
   spForward: {fileID: 21300000, guid: f51133ba21a273d4d920f019d6bcc9e5, type: 3}
   spLeft: {fileID: 21300000, guid: 68ea0eb7676860344b14018887d238d2, type: 3}
   spRight: {fileID: 21300000, guid: 7bf0bc4600f1f8b4089664513ee2a708, type: 3}
   spLight: {fileID: 21300000, guid: 30f339547283ed34ab5099d04f634ec3, type: 3}
   spP1: {fileID: 21300000, guid: 2f809c73dfd46ba49816688c97672de2, type: 3}
+  spP2: {fileID: 0}
   spBlank: {fileID: 21300000, guid: 577658027d628dd43a77eaff04a5d3b8, type: 3}
   spTarget: {fileID: 21300000, guid: bbe23c02f5dad2d4fbbe3b120332da00, type: 3}
   spOn: {fileID: 21300000, guid: f3384f6cc09532142b12c88b5b7f5927, type: 3}

@@ -4799,7 +4799,7 @@ MonoBehaviour:
   alertText: {fileID: 968225075}
   gameHandler: {fileID: 1083280182}
   nextLevel: function1
-  levelToUnlock: 0
+  levelToUnlock: 4
   levelToUnlock2: 1
 --- !u!1 &1374695689
 GameObject:
