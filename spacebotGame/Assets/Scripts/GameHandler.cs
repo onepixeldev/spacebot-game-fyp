@@ -25,7 +25,7 @@ public class GameHandler : MonoBehaviour {
 	//private List<int> procSteps; // keeps track of the steps the user entered for proc
 	private int maxMain = 4; // maximum steps allowed in main
 	private int maxMain2 = 7;
-	private int maxMain3 = 8;
+	private int maxMain3 = 9;
 	private int maxMain4 = 12;
 	//private int maxProc = 8; // maximum steps allowed in proc
 	private Dictionary<int, Sprite> iconDict;
