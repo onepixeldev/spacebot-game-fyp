@@ -9,6 +9,7 @@ public class GameOverManagerV2 : MonoBehaviour {
 	public GameObject levelCompleteUI;
 	public GameObject handPointer;
 	public GameObject handPointer2;
+	public GameObject handPointer3;
 	public GameObject alertText;
 	public GameHandlerV2 gameHandlerV2;
 
@@ -38,9 +39,11 @@ public class GameOverManagerV2 : MonoBehaviour {
 	public void HandPointer() {
 		handPointer.SetActive (true);
 		handPointer2.SetActive (true);
+		handPointer3.SetActive (true);
 		if (gameHandlerV2.typeSelect == true) {
 			handPointer.SetActive (false);
 			handPointer2.SetActive (false);
+			handPointer3.SetActive (false);
 			//Debug.Log (gameHandlerV2.typeSelect);
 		}
 	}
