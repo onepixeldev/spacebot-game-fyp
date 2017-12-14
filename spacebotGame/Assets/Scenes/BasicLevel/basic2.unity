@@ -813,7 +813,7 @@ Prefab:
     - target: {fileID: 224183539110738748, guid: cefeee91a7f247943b3c6c0bfdfd5724,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -0.14999962
+      value: -0.14999771
       objectReference: {fileID: 0}
     - target: {fileID: 224183539110738748, guid: cefeee91a7f247943b3c6c0bfdfd5724,
         type: 2}
@@ -5277,7 +5277,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1248201339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8686,7 +8686,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1990557119
 MonoBehaviour:
   m_ObjectHideFlags: 0
