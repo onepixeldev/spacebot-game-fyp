@@ -1,9 +1,9 @@
 # Game demo
 Using online app player, a bit laggy <br />
-https://appetize.io/app/86u13yqe9ytnwngeemhhjp31ew
+[demo](https://appetize.io/app/86u13yqe9ytnwngeemhhjp31ew)
 
 # APK file
-https://drive.google.com/file/d/1h55-9-QUWTkwlpoOgbzPdUZzS3Y6flhP/view?usp=sharing
+[APK](https://drive.google.com/file/d/1h55-9-QUWTkwlpoOgbzPdUZzS3Y6flhP/view?usp=sharing)
 
 # spacebot-game-fyp
 Final year project.<br/>
